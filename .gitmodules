@@ -1,0 +1,12 @@
+[submodule "cowrie"]
+	path = cowrie
+	url = https://github.com/Talareto/cowrie.git
+[submodule "tanner"]
+	path = tanner
+	url = https://github.com/Talareto/tanner.git
+[submodule "snare"]
+	path = snare
+	url = https://github.com/Talareto/snare.git
+[submodule "ddospot"]
+	path = ddospot
+	url = https://github.com/Talareto/ddospot.git
