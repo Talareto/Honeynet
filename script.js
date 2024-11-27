@@ -1,4 +1,5 @@
 // Fake login system
+console.log('hi')
 document.getElementById('login-form').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent form from refreshing the page
 
@@ -12,8 +13,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
         errorMessage.classList.remove('hidden');
         errorMessage.textContent = "Invalid username or password.";
     } else {
-        alert("Welcome! (Fake access granted)");
-        // Redirect to a fake "dashboard"
+        alert("Welcome!");
         window.location.href = "dashboard.html";
     }
 });
